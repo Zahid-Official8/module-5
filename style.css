@@ -1,6 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 600px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
     font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    color: dimgray;
+}
+img{
+    width: 100%;
+}
+
+/* header-area */
+.header-area{
+    padding: 40px 0;
+}
+.navbar{
+    text-align: right;
+    padding-bottom: 50px;
+    padding-right: 175px;
+}
+.navbar span{
+    color: dimgray;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 3%;
+    padding-bottom: 8%;
+    float: left;
+}
+.purple-highlight{
+    color: #5B5FDD;
+}
+.half-width p{
+    margin-bottom: 40px;
+}
+.half-width a{
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #1ECFDA, #4289FF);
+}
+
+/* about-area */
+.center-position{
+    margin-top: 70px;
+}
+.about-area .half-width a{
+    background-image: linear-gradient(90deg, #F59560, #FBD762);
+}
+
+/* work-area */
+.work-area{
+    background-color: #F8F9FC;
+}
+.section-title{
+    padding: 60px 0;
+    text-align: center;
+}
+.work-item{
+    width: 27%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px lightgray;
+}
+
+/* skill-area */
+.skill-area{
+    height: 1020px;
+}
+.skill-area h5{
+    color: dimgray;
+}
+.skill-area h2{
+    margin: 0;
+    font-size: 45px;
+}
+.skill-content{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    padding: 6% 0 6% 4%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 30px lightgray;
+}
+.skill-content h3{
+    font-size: 30px;
+    margin: 15px 0 35px;
+}
+.skill-content p{
+    font-size: 18px;
+}
+.skill-icon{
+    width: 40px;
+    float: left;
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 20px 10px 12px 20px;
+}
+.skill-content img{
+    width: 30px;
+}
+#icon-backgraound1{
+    background-color: #E9F9FF;
+}
+#icon-backgraound2{
+    background-color: #FFF4E4;
+}
+#icon-backgraound3{
+    background-color: #FFF5F6;
+}
+#icon-backgraound4{
+    padding-top: 17px;
+    padding-bottom: 15px;
+    background-color: #F4F3FF;
+}
+
+/* footer-area */
+.inquiry-area{
+    width: 40%;
+    color: white;
+    margin: 80px auto;
+    padding: 50px 80px;
+    border-radius: 10px;
+    background-position: left;
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+}
+.inquiry-area span{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+}
+.inquiry-area a{
+    color: white;
+    float: right;
+    margin-top: 12px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #FB7562, #F56260);
+}
+.contact-area{
+    text-align: center;
+}
+.contact-area h4{
+    color: #696871;
+    font-family: 'Bebas Neue', cursive;
+}
+.contact-area p{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.social-icons{
+    width: 55%;
+    float: right;
+    padding-bottom: 80px;
+}
+.icon{
+    width: 35px;
+    float: left;
+    padding-left: 10px;
 }
